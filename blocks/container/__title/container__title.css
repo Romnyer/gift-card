@@ -1,12 +1,10 @@
 .container__title {
-  display: block;
   position: relative;
   overflow: hidden;
   width: 100%;
   max-width: 356px;
-  height: 420px;
   margin: 0 auto;
-  padding: 27px 45px 0;
+  /* padding: 27px 45px 0; */
   background-position: center 447px;
 
   transition: background-position 1.5s;

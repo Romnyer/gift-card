@@ -1,0 +1,8 @@
+.container__img {
+  height: 420px;
+
+}
+
+.container__img_active {
+  background: url(../../../images/back.png) no-repeat center top;
+}
