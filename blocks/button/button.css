@@ -1,0 +1,12 @@
+.button {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  background: rgb(200, 200, 200);
+
+  width: 100%;
+  max-width: 356px;
+  height: 100px;
+  border-radius: 45px;
+  border-color: white;
+}

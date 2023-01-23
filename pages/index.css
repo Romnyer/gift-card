@@ -1,0 +1,19 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/Inter-Web/inter.css);
+
+/* Body */
+@import url(../blocks/body/body.css);
+
+/* Page */
+@import url(../blocks/page/page.css);
+
+/* Main */
+@import url(../blocks/main/main.css);
+
+/* Container */
+@import url(../blocks/container/container.css);
+@import url(../blocks/container/__title/container__title.css);
+
+/* Button */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/__text/button__text.css);

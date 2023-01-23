@@ -1,0 +1,30 @@
+.container__title {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 356px;
+  height: 420px;
+  margin: 0 auto;
+  padding: 27px 45px 0;
+  background-position: center 447px;
+
+  transition: background-position 1.5s;
+
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 5px #000;
+  font-size: 50px;
+}
+/*
+.container__title::after {
+  content: "";
+  width: 356px;
+  height: 447px;
+  z-index: -1;
+  transform: translateY(-447px);
+}
+*/
+.container__title_active {
+  background: url(../../../images/back.png) no-repeat center top;
+}
