@@ -1,6 +1,14 @@
-/* .container {
+.container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-} */
+
+  padding: 0 10px;
+
+  height: 100vh;
+  max-width: 600px;
+  margin: 0 auto;
+
+  font-family: 'Inter';
+}

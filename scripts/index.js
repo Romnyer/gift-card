@@ -1,39 +1,36 @@
-const container = document.querySelector('.container');
-const title = document.querySelector('.container__title');
-const button = document.querySelector('.button');
-const buttonText = document.querySelector('.button__text');
-const phrases = [
-  'Суслочайки, общий сбор!',
-  'В очко себе тыкни!',
-  'Когда в Чебы?',
-  'По пиву так по пиву',
-  'Инютино – ВО!',
-  'РЕМОНТ',
-  'В Бристоль, друзья!',
-  'Ээй БРАТ ЭЛАНТРА',
-  'Анек-дот'
-]
+const container = document.querySelector('.container'),
+      title = document.querySelector('.container__title'),
+      img = document.querySelector('.container__img'),
+      button = document.querySelector('.button'),
+      phrases = [
+        'Суслочайки, общий сбор!',
+        'В очко себе тыкни!',
+        'В Чебы?',
+        'Го по пиве?',
+        'В Инютино?',
+        'В Бристоль, друзья!',
+        'Анек-дот!'
+      ];
 
-const startChanges = function(text) {
-  title.textContent = text;
-  title.classList.add('container__title_active');
-}
-
-const changeText = function(element, text) {
+function changeText(element, text) {
   element.textContent = text;
 }
 
-const getPhrase = function(list) {
+function getPhrase(list) {
   const randomNumber = Math.floor(Math.random() * list.length);
   return list[randomNumber];
 }
 
 button.addEventListener('click', () => {
   if (title.textContent === 'Абонемент на ремонт') {
-    startChanges('РЕМОНТ');
+    changeText(title, 'ВЖУХ и ремонт сделан!');
+    img.style.display = 'block';
+    setTimeout(() => {
+      changeText(button, "Или лучше...");
+    },1500);
   }
 
   else {
     changeText(title, getPhrase(phrases));
   }
-})
+});

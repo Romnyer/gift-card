@@ -1,8 +1,12 @@
 .container__img {
   height: 420px;
-
+  object-fit: contain;
+  display: none;
 }
 
-.container__img_active {
-  background: url(../../../images/back.png) no-repeat center top;
+@media screen and (max-width: 500px){
+  .container__img {
+    width: 250px;
+    height: 310px;
+  }
 }
