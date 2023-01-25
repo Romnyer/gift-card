@@ -6,9 +6,16 @@
 
   padding: 0 10px;
 
-  height: 30vh;
-  max-width: 600px;
-  margin: 150px auto;
+  height: 55vh;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 150px 0 50px;
 
   font-family: 'Inter';
+}
+
+.container_active {
+  background: rgba(0, 0, 0, .5);
+  background-size: contain 700px;
+  background-position: center -300px;
 }

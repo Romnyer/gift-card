@@ -2,3 +2,7 @@
   position: relative;
   margin: 0 0 30px;
 }
+
+.grats__item:nth-of-type(5) {
+  margin: 0;
+}

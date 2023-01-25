@@ -1,5 +1,7 @@
 .container__title {
   width: 100%;
+  margin: 0;
+  padding: 0 0 60px;
 
   color: white;
   text-align: center;

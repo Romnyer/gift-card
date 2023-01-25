@@ -2,7 +2,7 @@
   display: block;
   max-width: 800px;
   margin: 0 auto;
-  padding: 51px 0 70px;
+  padding: 51px 0 0;
 }
 /*
 .grats_opened {
@@ -14,6 +14,6 @@
   .grats {
     max-width: 320px;
     margin: 0;
-    padding: 36px 0 50px;
+    padding: 36px 20px 50px;
   }
 }

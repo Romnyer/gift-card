@@ -1,16 +1,9 @@
 .body {
-  background: #000;
-}
-
-.page {
-  width: 100%;
-  min-width: 320px;
-  background: #000;
-  margin: auto;
-  padding: 20vh 25vw 0;
+  background: /*#000*/ url(../../images/IMG_20210809_121714_459.jpg);
+  background-position: center -250px;
 
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
-  color: #fff;
+  color: #000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;

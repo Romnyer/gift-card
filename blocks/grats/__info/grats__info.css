@@ -1,9 +1,20 @@
 .grats__info {
   box-sizing: border-box;
-  padding: 10px 30px;
+  padding: 20px 30px 10px;
   background: #fff;
   border-radius: 0 0 10px 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+}
+
+.grats__info span {
+  display: block;
+  margin: 25px 0 0;
+  text-align: end;
+
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #000;
 }

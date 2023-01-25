@@ -29,9 +29,14 @@ popupButton.addEventListener('click', () => {
 })
 
 button.addEventListener('click', () => {
+  container.classList.add('container_active');
+
+  //пытаюсь сделать container__img нормальным по высоте
+  //button.classList.add('button_active');
+
   if (title.textContent === 'Абонемент на ремонт') {
     changeText(title, 'ВЖУХ и ремонт сделан!');
-    img.style.display = 'block';
+    img.classList.add('container__img_active');
     setTimeout(() => {
       changeText(button, "Или лучше...");
     },1500);
