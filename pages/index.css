@@ -11,3 +11,20 @@
 
 /* Button */
 @import url(../blocks/button/button.css);
+
+/* Congratulations */
+@import url(../blocks/grats/grats.css);
+@import url(../blocks/grats/__items/grats__items.css);
+@import url(../blocks/grats/__item/grats__item.css);
+@import url(../blocks/../blocks/grats/__pic/grats__pic.css);
+@import url(../blocks/grats/__info/grats__info.css);
+@import url(../blocks/grats/__text/grats__title.css);
+
+/* Popup */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_closed/popup_opened.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__pic/popup__pic.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/__submit-button/popup__submit-button.css);

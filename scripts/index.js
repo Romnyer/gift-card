@@ -10,7 +10,10 @@ const container = document.querySelector('.container'),
         'В Инютино?',
         'В Бристоль, друзья!',
         'Анек-дот!'
-      ];
+      ],
+      grats = document.querySelector('.grats'),
+      popup = document.querySelector('.popup'),
+      popupButton = document.querySelector('.popup__button');
 
 function changeText(element, text) {
   element.textContent = text;
@@ -20,6 +23,10 @@ function getPhrase(list) {
   const randomNumber = Math.floor(Math.random() * list.length);
   return list[randomNumber];
 }
+
+popupButton.addEventListener('click', () => {
+  popup.classList.add('popup_closed');
+})
 
 button.addEventListener('click', () => {
   if (title.textContent === 'Абонемент на ремонт') {
