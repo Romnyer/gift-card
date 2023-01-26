@@ -6,6 +6,10 @@
   grid-column: 1fr;
   justify-items: center;
   row-gap: 30px;
+  display: grid;
+  grid-column: 1fr;
+  justify-items: center;
+  row-gap: 30px;
 }
 /*
 @media (max-width: 918px) {
