@@ -19,6 +19,7 @@ const container = document.querySelector('.container'),
         'Кхе'
       ],
       grats = document.querySelector('.grats'),
+      gratsPics = document.querySelectorAll('.grats__pic'),
       popup = document.querySelector('.popup'),
       popupButton = document.querySelector('.popup__button');
 
@@ -34,6 +35,30 @@ function getPhrase(list) {
 popupButton.addEventListener('click', () => {
   popup.classList.add('popup_closed');
 })
+
+
+//Скрытие фото карточки
+gratsPics.forEach(pic => {
+
+  //На телефоне
+  pic.addEventListener('touchstart', () => {
+    pic.style.opacity = '0';
+  })
+
+  pic.addEventListener('touchend', () => {
+    pic.style.opacity = '1';
+  })
+
+  //На пк
+  pic.addEventListener('mousedown', () => {
+    pic.style.opacity = '0';
+  })
+
+  pic.addEventListener('mouseup', () => {
+    pic.style.opacity = '1';
+  })
+})
+
 
 button.addEventListener('click', () => {
   container.classList.add('container_active');

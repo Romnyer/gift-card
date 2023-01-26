@@ -1,21 +1,23 @@
 .container__img {
-  height: 447px;
+  height: 0;
   width: 356px;
   visibility: hidden;
   opacity: 0;
   background-position: center 447px;
 
-  transition: background-position 1.5s;
+  transition: background-position 1.5s, height 1.5s;
 }
 
 @media screen and (max-width: 500px){
-  .container__img {
-    width: 250px;
-    height: 310px;
+
+  .container__img_active {
+    height: 100vh;
+    width: 100vw;
   }
 }
 
 .container__img_active {
+  height: 447px;
   visibility: visible;
   opacity: 1;
   background: url(../../../images/back.png) no-repeat center top;

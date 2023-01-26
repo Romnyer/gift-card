@@ -1,25 +1,6 @@
-/* .grats__info {
-  box-sizing: border-box;
-  padding: 20px 30px 10px;
-  background: #fff;
-  border-radius: 0 0 10px 10px;
-}
-
-.grats__info span {
-  display: block;
-  margin: 25px 0 0;
-  text-align: end;
-
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 29px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  color: #000;
-} */
-
 .grats__info {
   padding: 10px 15px;
   min-height: 30px;
+  border-radius: 0 0 15px 15px;
+  background-color: white;
 }

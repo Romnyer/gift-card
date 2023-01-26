@@ -6,7 +6,7 @@
 
   padding: 0 10px;
 
-  max-width: 780px;
+  max-width: 680px;
   margin: 0 auto;
   padding: 150px 0 50px;
 
@@ -14,8 +14,9 @@
 
   background: rgba(0, 0, 0, .5);
 }
-
+/*
 .container_active {
   background-size: contain 700px;
   background-position: center -300px;
 }
+*/
