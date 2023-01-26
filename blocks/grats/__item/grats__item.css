@@ -1,8 +1,5 @@
 .grats__item {
-  position: relative;
-  margin: 0 0 30px;
-}
-
-.grats__item:nth-of-type(5) {
-  margin: 0;
+  max-width: 700px;
+  background-color: white;
+  border-radius: 15px;
 }
