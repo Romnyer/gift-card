@@ -1,14 +1,11 @@
 .grats__items {
   margin: 0 auto;
-  padding: 0;
+  padding: 10px 10px;
   list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  /*
-  grid-template-columns: repeat(3, minmax(220.25px, 500px));
-  grid-auto-rows: minmax(361px, 1fr);
-  gap: 20px 33px;
-  */
+  display: grid;
+  grid-column: 1fr;
+  justify-items: center;
+  row-gap: 30px;
 }
 /*
 @media (max-width: 918px) {

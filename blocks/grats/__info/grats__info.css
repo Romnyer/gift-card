@@ -1,4 +1,4 @@
-.grats__info {
+/* .grats__info {
   box-sizing: border-box;
   padding: 20px 30px 10px;
   background: #fff;
@@ -17,4 +17,9 @@
   white-space: nowrap;
   overflow: hidden;
   color: #000;
+} */
+
+.grats__info {
+  padding: 10px 15px;
+  min-height: 30px;
 }
